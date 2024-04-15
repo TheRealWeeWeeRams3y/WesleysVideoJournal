@@ -1,0 +1,51 @@
+body{background-color: black}
+
+<!https://www.tutorialrepublic.com/faq/how-to-overlay-one-div-over-another-div-using-css.php#:~:text=Answer%3A%20Use%20the%20CSS%20z,div%20over%20another%20div%20element.>
+
+.pages {
+	font-size: 100px;
+	background-color: darkgray;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+@font-face {
+  font-family: VCR;
+  src: url(https://dl.dafont.com/dl/?f=vcr_osd_mono);
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
