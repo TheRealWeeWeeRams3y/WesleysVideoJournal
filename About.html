@@ -16,13 +16,25 @@
   display: block;
 }
 
-#backgrounding {
+#backgrounding_about {
 	background-color: white;
 	background-clip: content-box;
 	box-shadow: inset 0 0 0 5px #000000;
 }
 
-#backgrounding:hover {
+#backgrounding_about:hover {
+	background-color: #d3d3d3;
+	background-clip: content-box;
+	box-shadow: inset 0 0 0 5px #000000;
+}
+
+#backgrounding_final {
+	background-color: white;
+	background-clip: content-box;
+	box-shadow: inset 0 0 0 5px #000000;
+}
+
+#backgrounding_final:hover {
 	background-color: #d3d3d3;
 	background-clip: content-box;
 	box-shadow: inset 0 0 0 5px #000000;
@@ -49,6 +61,30 @@
 	h1 {
   	padding-top: 80px;
   	}
+  	img {
+  		width: 70%;
+  		src: "about.jpg";
+  	}
+  	#backgrounding_final {
+  		background-color: white;
+  		background-clip: content-box;
+		box-shadow: inset -11em -1em 0em 0em black;
+  	}
+  	#backgrounding_final:hover {
+  		background-color: lightgray;
+  		background-clip: content-box;
+		box-shadow: inset -11em -1em 0em 0em black;
+  	}
+  	 #backgrounding_about {
+  		background-color: white;
+  		background-clip: content-box;
+		box-shadow: inset -2.5em -0.5em 0em 0em black;
+  	}
+  	#backgrounding_about:hover {
+  		background-color: lightgray;
+  		background-clip: content-box;
+		box-shadow: inset -2.5em -0.5em 0em 0em black;
+  	}
 }
 
 
@@ -71,13 +107,13 @@
 	</head>
 
 <div id="pages1">
-	<div id="backgrounding">
+	<div id="backgrounding_final">
 <a href="index.html"><img width="500" src="title_trans.png"></a>
  </div>
 </div>
 
 <div id="pages2">
-	<div id="backgrounding">
+	<div id="backgrounding_about">
 <a href="About.html"><img width="125" src="about_trans.png"></a>
  </div>
 </div>
